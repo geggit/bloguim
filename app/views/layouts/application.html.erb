@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Myblog</title>
+  <%= stylesheet_link_tag :all %>
+  <%= stylesheet_link_tag "myblog", :media => "all" %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+  <%= auto_discovery_link_tag :atom, "/posts.atom" %>
+</head>
+<body class="myblog">
+
+<%= yield %>
+
+</body>
+</html>

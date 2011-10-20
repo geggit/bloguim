@@ -1,0 +1,36 @@
+#blogtitle {
+  color:red;
+  background:yellow;
+}
+
+#posttitle {
+  color:green;
+  background:yellow;
+}
+
+#comment {
+  color:blue;
+}
+
+div.bodywithouttitle, #blogtitle  {
+  font-family: verdana;
+  font-size:   12px;
+  line-height: 14px;
+
+float:right;
+position:relative;
+left:-20%;
+text-align:left;
+
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  width: 46em;
+  background: white;
+  
+transform:rotate(10deg);
+-ms-transform:rotate(30deg); /* IE 9 */
+-moz-transform:rotate(5deg); /* Firefox */
+-webkit-transform:rotate(30deg); /* Safari and Chrome */
+-o-transform:rotate(30deg); /* Opera */
+}
