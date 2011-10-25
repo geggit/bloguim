@@ -9,11 +9,6 @@
 <p><%= link_to "Delete comment", [@post, comment], :method=>:delete, :confirm=>"Are you sure?" %>
 <% end %>
 
-<%= form_for [@post, @post.comments.build] do |f| %>
-  <p><%= f.text_area :text, :size=>'40x10' %> </p>
-  <p><%= f.submit "Post submit" %> </p>
-<% end %>
-
 <p>
   <%= link_to "Back", posts_path %>
   |
