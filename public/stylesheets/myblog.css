@@ -29,8 +29,8 @@ text-align:left;
   background: white;
   
 transform:rotate(10deg);
--ms-transform:rotate(30deg); /* IE 9 */
+-ms-transform:rotate(5deg); /* IE 9 */
 -moz-transform:rotate(5deg); /* Firefox */
--webkit-transform:rotate(30deg); /* Safari and Chrome */
--o-transform:rotate(30deg); /* Opera */
+-webkit-transform:rotate(5deg); /* Safari and Chrome */
+-o-transform:rotate(5deg); /* Opera */
 }
